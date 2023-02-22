@@ -9,3 +9,18 @@ def array_mult(array):
     for y in array:
         mult = mult * y
     print(mult)
+
+
+# Press the green button in the gutter to run the script.
+if __name__ == '__main__':
+    lst = []
+    num = int(input("How many numbers: "))
+    for i in range(0, num):
+        ele = int(input())
+
+        lst.append(ele)
+
+    array_sum(lst)
+
+    array_mult(lst)
+
