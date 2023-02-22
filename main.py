@@ -8,7 +8,7 @@ def array_mult(array):
     y = len(array)
     for y in array:
         mult = mult * y
-    print(mult)
+    print(mult) #ae
 
 
 # Press the green button in the gutter to run the script.
