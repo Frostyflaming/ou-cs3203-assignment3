@@ -28,3 +28,4 @@ if __name__ == '__main__':
 
     array_mult(lst)
 
+    array_reverse(lst)
