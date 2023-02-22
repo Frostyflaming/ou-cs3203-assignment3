@@ -11,6 +11,10 @@ def array_mult(array):
     print(mult)
 
 
+def array_reverse(array):
+    print(list(reversed(array)))
+
+
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     lst = []
@@ -24,3 +28,4 @@ if __name__ == '__main__':
 
     array_mult(lst)
 
+    array_reverse(lst)
